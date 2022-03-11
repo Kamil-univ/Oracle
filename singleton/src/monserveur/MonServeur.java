@@ -3,13 +3,13 @@ package monserveur;
 public class MonServeur {
 
     private static MonServeur instance = new MonServeur();
-    private ServiceA serviceA;
-    private ServiceB serviceB;
+    private Conseil serviceA;
+    private Miracle serviceB;
 
     private MonServeur() {
 
-        serviceA = new ServiceA();
-        serviceB = new ServiceB();
+        serviceA = new Conseil();
+        serviceB = new Miracle();
     }
 
     public static MonServeur getInstance() {
@@ -27,17 +27,17 @@ public class MonServeur {
         System.out.println("publicPrint : " + m);
     }
 
-    public ServiceAInterface getServiceAInterface() {
+    public ConseilInterface getServiceAInterface() {
 
-        return (ServiceAInterface)serviceA;
+        return (ConseilInterface)serviceA;
     }
 
-    public ServiceBInterface getServiceBInterface() {
+    public MiracleInterface getServiceBInterface() {
 
-        return (ServiceBInterface)serviceB;
+        return (MiracleInterface)serviceB;
     }
 
-    ServiceA getServiceA() {
+    Conseil getServiceA() {
 
         return serviceA;
     }

@@ -1,6 +1,6 @@
 package monserveur;
 
-public interface ServiceBInterface {
+public interface MiracleInterface {
 
     public void methodeC();
     public void methodeD();

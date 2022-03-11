@@ -1,8 +1,8 @@
 package monserveur;
 
-public class ServiceB extends Service implements ServiceBInterface{
+public final class Miracle extends Service implements MiracleInterface{
 
-    public ServiceB(){
+    public Miracle(){
     }
 
     public void methodeC(){
