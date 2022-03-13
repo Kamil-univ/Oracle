@@ -10,6 +10,7 @@ class Conseil implements ConseilInterface {
     @Override
     public void conseilSurdemande(String demande, String oracle, String croyant) {
         System.out.println(croyant + " demande un conseil à " + oracle);
+        System.out.println("''" + demande +"''" );
         System.out.println(oracle + " offre un conseil à " + croyant + " sur demande.");
     }
 

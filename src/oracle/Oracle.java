@@ -6,6 +6,7 @@ public final class Oracle {
     private final Ecoute ecoute;
     private final Miracle miracle;
     private final Recompense recompense;
+    private String name;
 
     private Oracle() {
         this.conseil = new Conseil();
@@ -38,7 +39,9 @@ public final class Oracle {
         return miracle;
     }
 
-    public RecompenseInterface getRetributionInterface() {
+    public RecompenseInterface getRecompenseInterface() {
         return recompense;
     }
+
+
 }

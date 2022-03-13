@@ -6,42 +6,56 @@ public class Main {
 
         while (start) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("\n///////////////  Choisissez la tribut /////////////// "
-            					+ "\n"
-            			    	+ "\n*****************  1- Pieds Noirs ***************** "
-            			    	+ "\n*****************  2- Danseurs masqués  *****************" 
-            			    	+ "\n*****************  3- Tribut 3   *****************" 
-            					+ "\n*****************  4- Tribut 4   *****************" );
-            
+            System.out.println("\n///////////////  Choisissez la tribu /////////////// "
+                    + "\n"
+                    + "\n*****************  1- Pieds Noirs ***************** "
+                    + "\n*****************  2- Danseurs masqués  *****************"
+                    + "\n*****************  3- Tribu du Ciel   *****************"
+                    + "\n*****************  4- Tribu du Feu   *****************"
+                    + "\n*****************  5- Quittez   *****************");
+
             int choix = sc.nextInt();
-        	switch(choix) 
-        	{
-        		case 1: 
-	        	
-        			PiedsNoirs pn = new PiedsNoirs("Pieds Noirs");
-        			pn.communiquerAvecEspritDeLaNuit().demanderConseil("Puis-je gagner la guerre ?");
-        			pn.communiquerAvecEspritDeLaNuit().ecouterEtRepondre("J'aimerais être protégé.");
-        			pn.communiquerAvecEspritDeLaNuit().ecouterSansRepondre("Je suis ici juste pour parler.");
-        			pn.communiquerAvecEspritDeLaNuit().ecouterEtRealiserMiracle("Je veux pouvoir voler.");
-        			pn.communiquerAvecEspritDeLaNuit().realiserMiracle("Je veux pouvoir voler.");
-		
+            switch (choix) {
+                case 1:
 
-		            break;
-	            
-        		case 2: 
-	
-		            break;
+                    PiedsNoirs pn = new PiedsNoirs("Pied Noir");
+                    pn.communiquerAvecEspritDeLaNuit().demanderConseil("Puis-je gagner la guerre ?");
+                    pn.communiquerAvecEspritDeLaNuit().ecouterEtRepondre("J'aimerais être protégé.");
+                    pn.communiquerAvecEspritDeLaNuit().ecouterSansRepondre("Je suis ici juste pour parler.");
+                    pn.communiquerAvecEspritDeLaNuit().ecouterEtRealiserMiracle("Je veux pouvoir voler.");
+                    pn.communiquerAvecEspritDeLaNuit().realiserMiracle("Je veux pouvoir voler.");
 
-        		 case 3: 
-        			 
-		           break;
-		           
-        		 case 4: 
-        			 
-  		           break;
-        	}
-        	
-        	
+
+                    break;
+
+                case 2:
+
+                    DanseursMasques danseursMasques = new DanseursMasques("Danseur Masque");
+                    danseursMasques.communiquerAvecEspritDeLaNuit().actionDanseurMasque();
+
+                    break;
+
+                case 3:
+
+                    TribuDuCiel tribuDuCiel = new TribuDuCiel("Representant du ciel");
+                    tribuDuCiel.communiquerAvecEspritDeLaNuit().actionDuCiel("Nous voulons la paix");
+
+
+                    break;
+
+                case 4:
+
+					TribuDuFeu tribuDuFeu = new TribuDuFeu("Representant du feu");
+					tribuDuFeu.communiquerAvecEspritDeLaNuit().actionDuFeu();
+
+                    break;
+
+                case 5:
+                    return;
+
+            }
+
+
         }
     }
 }
