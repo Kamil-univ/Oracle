@@ -1,6 +1,6 @@
 package oracle;
 
-class Ecoute implements EcouteInterface{
+public final class Ecoute implements EcouteInterface{
 	
     @Override
     public void ecouterSansRepondre(String besoins, String oracle, String croyant) {

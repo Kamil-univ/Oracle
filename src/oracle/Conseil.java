@@ -1,6 +1,6 @@
 package oracle;
 
-class Conseil implements ConseilInterface {
+public final class Conseil implements ConseilInterface {
 	
     @Override
     public void conseilsSansRaison(String oracle, String croyant) {
