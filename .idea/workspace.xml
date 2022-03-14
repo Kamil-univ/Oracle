@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386ed239-2627-4896-9aa0-d35216ab4b6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Commandante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shaman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TotemDuFeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DanseursMasques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DanseursMasques.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commandante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commandante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EspritDeLaNuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EspritDeLaNuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TribuDuCiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TribuDuCiel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TribuDuFeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TribuDuFeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shaman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TotemDuFeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TotemDuFeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Conseil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/Conseil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Ecoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/Ecoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Recompense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/Recompense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/RecompenseInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/RecompenseInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>

@@ -14,8 +14,8 @@ public final class Recompense implements RecompenseInterface{
     }
 
     public void echangerMiracleEtPunition(String oracle, String croyant) {
-        System.out.println(oracle + " a été demandé d'offrir un miracle et une punition par le " + croyant);
-        System.out.println(oracle + " échange un miracle contre une punition avec le " + croyant);
+        System.out.println(croyant+ "demande a " +oracle+ "d'offrir un miracle et une punition" );
+        System.out.println(oracle + " ï¿½change un miracle contre une punition avec le " + croyant);
         Oracle.getInstance().getMiracleInterface().realiserMiracle(oracle, croyant);
     }
 
@@ -23,8 +23,8 @@ public final class Recompense implements RecompenseInterface{
 
     //on va lancer un thread grace a un nombre aleatoire qui va
     //definir le nombre de bois que le croyant va chercher
-    //grace a DP Singleton, une seule instance est lancé alors
-    //durant toute l'exection c le bois compteur qui est incrémenté
+    //grace a DP Singleton, une seule instance est lancï¿½ alors
+    //durant toute l'exection c le bois compteur qui est incrï¿½mentï¿½
     public void ramasserDuBois(String oracle,String croyant){
         int nbBoisRand = 1 + (int) (Math.random() * ((10 - 1) + 1));
         for(int i=1;i<=nbBoisRand;i++){

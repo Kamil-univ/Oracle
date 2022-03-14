@@ -4,17 +4,17 @@ public final class Conseil implements ConseilInterface {
 	
     @Override
     public void conseilsSansRaison(String oracle, String croyant) {
-        System.out.println(oracle + " offre un conseil à " + croyant + " sans aucune raison.");
+        System.out.println(oracle + " offre un conseil ï¿½ " + croyant + " sans aucune raison.");
     }
 
     @Override
     public void conseilSurdemande(String demande, String oracle, String croyant) {
-        System.out.println(croyant + " demande un conseil à " + oracle);
-        System.out.println("''" + demande +"''" );
-        System.out.println(oracle + " offre un conseil à " + croyant + " sur demande.");
+        System.out.println(croyant + " demande un conseil pour " + oracle);
+        System.out.println("''" + demande +"''\n" );
+        System.out.println(oracle + " offre un conseil pour " + croyant + " sur demande.");
     }
 
     public void conseilApresEcoute(String oracle, String croyant) {
-        System.out.println(oracle + " offre un conseil à " + croyant + " après avoir écouté.");
+        System.out.println(oracle + " offre un conseil pour " + croyant + " aprï¿½s avoir ï¿½coutï¿½.");
     }
 }

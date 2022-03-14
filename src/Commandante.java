@@ -16,7 +16,7 @@ public class Commandante {
     public void actionDuCiel(String request) {
 
         Oracle.getInstance().getConseilInterface().conseilSurdemande(request, "La commandante", croyant);
-        System.out.println("Le " + croyant + " va demander demander un miracle a la commandante, si elle est" +
+        System.out.println(croyant + " va demander un miracle a la commandante, si elle est" +
                 " de bonne humeur alors elle va le realiser  ");
 
         // Bonne humeur de la commandante
