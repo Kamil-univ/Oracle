@@ -9,7 +9,7 @@ public class Main {
             System.out.println("\n///////////////  Choisissez la tribu /////////////// "
                     + "\n"
                     + "\n*****************  1- Pieds Noirs ***************** "
-                    + "\n*****************  2- Danseurs masqués  *****************"
+                    + "\n*****************  2- Danseurs masquï¿½s  *****************"
                     + "\n*****************  3- Tribu du Ciel   *****************"
                     + "\n*****************  4- Tribu du Feu   *****************"
                     + "\n*****************  5- Quittez   *****************");
@@ -20,7 +20,7 @@ public class Main {
 
                     PiedsNoirs pn = new PiedsNoirs("Pied Noir");
                     pn.communiquerAvecEspritDeLaNuit().demanderConseil("Puis-je gagner la guerre ?");
-                    pn.communiquerAvecEspritDeLaNuit().ecouterEtRepondre("J'aimerais être protégé.");
+                    pn.communiquerAvecEspritDeLaNuit().ecouterEtRepondre("J'aimerais ï¿½tre protï¿½gï¿½.");
                     pn.communiquerAvecEspritDeLaNuit().ecouterSansRepondre("Je suis ici juste pour parler.");
                     pn.communiquerAvecEspritDeLaNuit().ecouterEtRealiserMiracle("Je veux pouvoir voler.");
                     pn.communiquerAvecEspritDeLaNuit().realiserMiracle("Je veux pouvoir voler.");
@@ -31,7 +31,7 @@ public class Main {
                 case 2:
 
                     DanseursMasques danseursMasques = new DanseursMasques("Danseur Masque");
-                    danseursMasques.communiquerAvecEspritDeLaNuit().actionDanseurMasque();
+                    danseursMasques.communiquerAvecShaman().actionDanseurMasque();
 
                     break;
 
