@@ -38,39 +38,7 @@ public class EspritDeLaNuit {
         Oracle.getInstance().getMiracleInterface().realiserMiracle("L'esprit de la nuit", croyant);
     }
 
-    //Methode Tribu du ciel
 
-    public void actionDuCiel(String request) {
-
-        Oracle.getInstance().getConseilInterface().conseilSurdemande(request, "La commandante", croyant);
-        System.out.println("Le " + croyant + " va demander demander un miracle a la commandante, si elle est" +
-                " de bonne humeur alors elle va le realiser  ");
-
-        // Bonne humeur de la commandante
-        int humeur = 5 + (int) (Math.random() * ((10 - 5) + 1));
-        if (humeur % 2 == 0) {
-            System.out.println("Une bonne nouvelle semble arriver ...");
-            Oracle.getInstance().getMiracleInterface().realiserMiracle("La commandante", croyant);
-
-        } else {
-            System.out.println("Mauvaise nouvelle ! La commandante n'est pas de bonne humeur");
-        }
-
-
-    }
-
-
-    //methode pour la tribu du feu
-
-    public void actionDuFeu() {
-        System.out.println("Le " + croyant + " danse autour du feu de camp");
-        Oracle.getInstance().getMiracleInterface().demanderLaPluie("Totem du Feu",croyant);
-        System.out.println("Le " + croyant + " part chercher du bois");
-        Oracle.getInstance().getRecompenseInterface().ramasserDuBois("Totem du Feu",croyant);
-
-
-
-    }
 
 
 }

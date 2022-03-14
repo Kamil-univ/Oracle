@@ -1,14 +1,14 @@
 public class TribuDuFeu {
 
-    private final EspritDeLaNuit espritDeLaNuit;
+    private final TotemDuFeu totemDuFeu;
 
     public TribuDuFeu(String name) {
 
-        this.espritDeLaNuit = new EspritDeLaNuit(name);
+        this.totemDuFeu = new TotemDuFeu(name);
     }
 
-    public EspritDeLaNuit communiquerAvecEspritDeLaNuit() {
+    public TotemDuFeu communiquerAvecTotemDuFeu() {
 
-        return espritDeLaNuit;
+        return totemDuFeu;
     }
 }

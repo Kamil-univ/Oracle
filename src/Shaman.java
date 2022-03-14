@@ -1,5 +1,9 @@
 import oracle.Oracle;
 
+import java.sql.SQLOutput;
+
+import static java.lang.Math.random;
+
 public class Shaman {
     private final String croyant;
 
@@ -8,7 +12,7 @@ public class Shaman {
         this.croyant = croyant;
     }
 
-    // Methode pour les danseurs masques
+    //methode danseurs masques
 
     public void actionDanseurMasque() {
         System.out.println("Le " + croyant + " ecoute les chants des totems ");
@@ -30,5 +34,4 @@ public class Shaman {
         }
 
     }
-
 }
