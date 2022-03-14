@@ -15,11 +15,11 @@ public final class Oracle {
         this.recompense = new Recompense();
     }
 
-    public static Oracle getInstance() {
+    public static Oracle getInstance(){
         return instance;
     }
 
-    Conseil getAdvice() {
+    Conseil getAdvice(){
         return conseil;
     }
 
