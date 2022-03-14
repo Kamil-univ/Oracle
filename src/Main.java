@@ -31,14 +31,14 @@ public class Main {
                 case 2:
 
                     DanseursMasques danseursMasques = new DanseursMasques("Danseur Masque");
-                    danseursMasques.communiquerAvecEspritDeLaNuit().actionDanseurMasque();
+                    danseursMasques.communiquerAvecShaman().actionDanseurMasque();
 
                     break;
 
                 case 3:
 
                     TribuDuCiel tribuDuCiel = new TribuDuCiel("Representant du ciel");
-                    tribuDuCiel.communiquerAvecEspritDeLaNuit().actionDuCiel("Nous voulons la paix");
+                    tribuDuCiel.communiquerAvecCommandante().actionDuCiel("Nous voulons la paix");
 
 
                     break;
@@ -46,7 +46,7 @@ public class Main {
                 case 4:
 
 					TribuDuFeu tribuDuFeu = new TribuDuFeu("Representant du feu");
-					tribuDuFeu.communiquerAvecEspritDeLaNuit().actionDuFeu();
+					tribuDuFeu.communiquerAvecTotemDuFeu().actionDuFeu();
 
                     break;
 

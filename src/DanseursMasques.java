@@ -1,14 +1,14 @@
 public class DanseursMasques {
 
-    private final EspritDeLaNuit espritDeLaNuit;
+    private final Shaman shaman;
 
     public DanseursMasques(String name) {
 
-        this.espritDeLaNuit = new EspritDeLaNuit(name);
+        this.shaman = new Shaman(name);
     }
 
-    public EspritDeLaNuit communiquerAvecEspritDeLaNuit() {
+    public Shaman communiquerAvecShaman() {
 
-        return espritDeLaNuit;
+        return shaman;
     }
 }

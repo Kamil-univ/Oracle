@@ -1,14 +1,14 @@
 public class TribuDuCiel {
 
-    private final EspritDeLaNuit espritDeLaNuit;
+    private final Commandante commandante;
 
     public TribuDuCiel(String name) {
 
-        this.espritDeLaNuit = new EspritDeLaNuit(name);
+        this.commandante = new Commandante(name);
     }
 
-    public EspritDeLaNuit communiquerAvecEspritDeLaNuit() {
+    public Commandante communiquerAvecCommandante() {
 
-        return espritDeLaNuit;
+        return commandante;
     }
 }
