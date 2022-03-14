@@ -33,4 +33,6 @@ public final class Ecoute implements EcouteInterface{
         System.out.println(oracle + " écoute la confession " + croyant + ", et prépare une punition.");
         Oracle.getInstance().getRecompense().PunitionMeritee(oracle, croyant);
     }
+
+
 }
