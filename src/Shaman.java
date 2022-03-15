@@ -8,7 +8,7 @@ public class Shaman {
     }
 
     public void actionDanseurMasque() {
-        System.out.println("Le rituel commence..." + croyant + "s'active et danse en chantant autour des totems des animaux sacres");
+        System.out.println("Le rituel commence..." + croyant + " s'active et danse en chantant autour des totems des animaux sacres");
         System.out.println("Les totems silencieux ecoutent les chants de " + croyant);
 
         int quelquesFois = 1 + (int) (Math.random() * ((20 - 1) + 1));

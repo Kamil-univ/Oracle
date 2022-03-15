@@ -4,7 +4,7 @@ public final class Conseil implements ConseilInterface {
 
     @Override
     public void conseilsSansRaison(String oracle, String croyant) {
-        System.out.println(oracle + " offre un conseil � " + croyant + " sans aucune raison.");
+        System.out.println(oracle + " offre un conseil pour " + croyant + " sans aucune raison.");
     }
 
     @Override
