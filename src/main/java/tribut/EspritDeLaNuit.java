@@ -1,3 +1,5 @@
+package tribut;
+
 import oracle.Oracle;
 
 public class EspritDeLaNuit {

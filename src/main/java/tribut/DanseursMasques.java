@@ -1,3 +1,5 @@
+package tribut;
+
 public class DanseursMasques {
 
     private final Shaman shaman;

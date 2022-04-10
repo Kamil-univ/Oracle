@@ -1,3 +1,5 @@
+package tribut;
+
 public class TribuDuFeu {
 
     private final TotemDuFeu totemDuFeu;

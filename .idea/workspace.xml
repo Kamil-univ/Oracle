@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="386ed239-2627-4896-9aa0-d35216ab4b6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2022_16_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2022_16_32__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shaman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oracle/Conseil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/Conseil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/singleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commandante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/Commandante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DanseursMasques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/DanseursMasques.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EspritDeLaNuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/EspritDeLaNuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PiedsNoirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/PiedsNoirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/Shaman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TotemDuFeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/TotemDuFeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TribuDuCiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/TribuDuCiel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TribuDuFeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tribut/TribuDuFeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Conseil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Conseil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/ConseilInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/ConseilInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Ecoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Ecoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/EcouteInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/EcouteInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Miracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Miracle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/MiracleInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/MiracleInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Oracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Oracle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Recompense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Recompense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/RecompenseInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/RecompenseInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +68,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\repo\Oracle\src\main\java\Tribut" />
+      <recent name="F:\repo\Oracle\src\main\java" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="run" type="Application" factoryName="Application">
@@ -57,6 +87,19 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="singleton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="singleton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="singleton" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

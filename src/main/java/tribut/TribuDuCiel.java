@@ -1,3 +1,5 @@
+package tribut;
+
 public class TribuDuCiel {
 
     private final Commandante commandante;

@@ -1,3 +1,5 @@
+package tribut;
+
 public class PiedsNoirs {
 
     private final EspritDeLaNuit espritDeLaNuit;
