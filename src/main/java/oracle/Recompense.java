@@ -4,7 +4,6 @@ public final class Recompense implements RecompenseInterface {
 
     private int compteur;
 
-    @Override
     public void PunitionSansRaison(String oracle, String croyant) {
         System.out.println(oracle + " punit " + croyant + " sans raison.");
     }

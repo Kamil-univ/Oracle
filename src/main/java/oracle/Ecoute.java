@@ -2,14 +2,12 @@ package oracle;
 
 public final class Ecoute implements EcouteInterface {
 
-    @Override
     public void ecouterSansRepondre(String besoins, String oracle, String croyant) {
         System.out.println(croyant + " prie pour " + oracle);
         System.out.println("''" + besoins + "''\n");
         System.out.println(oracle + " Ecoute les prieres de " + croyant + ", mais ne repond pas.");
     }
 
-    @Override
     public void ecouterEtRepondre(String besoins, String oracle, String croyant) {
         System.out.println(croyant + " prie pour " + oracle);
         System.out.println("''" + besoins + "''\n");
@@ -17,7 +15,6 @@ public final class Ecoute implements EcouteInterface {
         Oracle.getInstance().getAdvice().conseilApresEcoute(oracle, croyant);
     }
 
-    @Override
     public void ecouterEtRealiserMiracle(String besoins, String oracle, String croyant) {
         System.out.println(croyant + " prie pour " + oracle);
         System.out.println("''" + besoins + "''\n");
@@ -25,7 +22,6 @@ public final class Ecoute implements EcouteInterface {
         Oracle.getInstance().getMiracleInterface().realiserMiracle(oracle, croyant);
     }
 
-    @Override
     public void ecouterEtPunir(String confession, String oracle, String croyant) {
         System.out.println(croyant + " prie pour " + oracle);
         System.out.println("''" + confession + "''\n");
