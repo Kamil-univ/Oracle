@@ -1,7 +1,9 @@
 package oracle;
 
+import Log.LogThis;
+
 public final class Oracle {
-    private static final Oracle instance = new Oracle();
+    private static Oracle instance;
     private final Conseil conseil;
     private final Ecoute ecoute;
     private final Miracle miracle;
@@ -16,6 +18,9 @@ public final class Oracle {
     }
 
     public static Oracle getInstance(){
+        if(instance == null){
+            instance = new Oracle();
+        }
         return instance;
     }
 

@@ -1,5 +1,7 @@
 package oracle;
 
+import Log.LogThis;
+
 public final class Conseil implements ConseilInterface {
 
     public void conseilsSansRaison(String oracle, String croyant) {

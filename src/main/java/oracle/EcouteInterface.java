@@ -1,6 +1,6 @@
 package oracle;
 
-public interface EcouteInterface {
+public interface EcouteInterface extends Service {
     void ecouterSansRepondre(String besoins, String oracle, String croyant);
     void ecouterEtRepondre(String besoins, String oracle, String croyant);
     void ecouterEtRealiserMiracle(String besoins, String oracle, String croyant);
