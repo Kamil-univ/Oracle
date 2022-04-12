@@ -1,0 +1,58 @@
+Rapport : 
+getConseilInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getConseilInterface
+[Ljava.lang.String;@7a07c5b4
+1649739877141~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877141
+[ReturnType]:Conseil
+getEcouteInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getEcouteInterface
+[Ljava.lang.String;@5a10411
+1649739877143~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877143
+[ReturnType]:Ecoute
+getAdvice
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getAdvice
+[Ljava.lang.String;@306a30c7
+1649739877143~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877143
+[ReturnType]:Conseil
+getEcouteInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getEcouteInterface
+[Ljava.lang.String;@5a10411
+1649739877144~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877144
+[ReturnType]:Ecoute
+getEcouteInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getEcouteInterface
+[Ljava.lang.String;@5a10411
+1649739877144~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877144
+[ReturnType]:Ecoute
+getMiracleInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getMiracleInterface
+[Ljava.lang.String;@68de145
+1649739877145~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877145
+[ReturnType]:Miracle
+getMiracleInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getMiracleInterface
+[Ljava.lang.String;@68de145
+1649739877145~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739877145
+[ReturnType]:Miracle
+getConseilInterface
+~~~~~~~LOG~~~~~~~
+[Invoked method] : getConseilInterface
+[Ljava.lang.String;@7a07c5b4
+1649739893927~~~~~~~~~METHOD EXECUTION>>
+>>END OF EXECUTION~~~~~~~~1649739893927
+[ReturnType]:Conseil
+

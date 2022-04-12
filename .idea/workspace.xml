@@ -5,21 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386ed239-2627-4896-9aa0-d35216ab4b6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Log/LogThis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Log/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oracle/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rapport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/execution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/sauvegardeFichierTexte.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2022_16_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2022_16_32__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oracle/Conseil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Conseil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oracle/ConseilInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/ConseilInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oracle/EcouteInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/EcouteInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oracle/MiracleInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/MiracleInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oracle/Oracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/Oracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oracle/RecompenseInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oracle/RecompenseInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/singleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Log/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Log/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Log/LogThis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Log/LogThis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Log/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Log/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspects/TestAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aspects/TestAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspects/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aspects/TestClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/oracle/Conseil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Conseil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/oracle/ConseilInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/ConseilInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Ecoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Ecoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/EcouteInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/EcouteInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Miracle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Miracle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/MiracleInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/MiracleInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle$AjcClosure9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/oracle/Oracle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Oracle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Recompense.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Recompense.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/RecompenseInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/RecompenseInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oracle/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oracle/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/Commandante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/Commandante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/DanseursMasques.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/DanseursMasques.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/EspritDeLaNuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/EspritDeLaNuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/PiedsNoirs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/PiedsNoirs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/Shaman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/Shaman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/TotemDuFeu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/TotemDuFeu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/TribuDuCiel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/TribuDuCiel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tribut/TribuDuFeu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tribut/TribuDuFeu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +75,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="26IIYugNwJLqQEnw27Th5X6iA8K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -103,19 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="singleton" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="singleton" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestClass" />
@@ -156,6 +178,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
