@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386ed239-2627-4896-9aa0-d35216ab4b6c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shaman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oracle/Conseil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/Conseil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oracle/Recompense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oracle/Recompense.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,9 @@
       <workItem from="1647212890569" duration="9530000" />
       <workItem from="1647288419381" duration="25000" />
       <workItem from="1647288460127" duration="6719000" />
+      <workItem from="1647741412416" duration="388000" />
+      <workItem from="1647831556541" duration="205000" />
+      <workItem from="1649705170146" duration="908000" />
     </task>
     <servers />
   </component>
